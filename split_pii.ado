@@ -48,35 +48,7 @@ program split_pii
  
 end
 	
-	*Generates three new datasets: PII, data, and links
-	*The data should have a randomly generated ID
-	*Can built in options for variable lists for each of the 18 categories of
-	*PHI in HIPAA? Put this in the help file.
-	
-	*varlist is the list of PII variables to remove.
-	*id1 is the ID variable to be generated for the PII dataset
-	*id2 is the ID variable to be generated for the anonymized dataset
-	*dir() is optional and specifies the directory to save the new files. Defaults to 
-		*working directory
-	*newname() specifies the name of the (3) new files to be saved, before the suffixes.
-		*For example, newname("my baseline data") would save:
-			*my baseline data_PII.dta 
-			*my baseline data_Anonymized.dta
-			*my baseline data_IDLink.dta
-	
-	
-	/*
-	newname_PII.dta
-	newname_Anonymized.dta
-	newname_IDLink.dta
-	OR
-	data_PII.dta
-	data_Anonymized.dta
-	data_IDLink.dta
-	*/
-	
-	*Warning!! You should encrypt or delete the original dataset after running this
-	*command.
+
 
 
 
