@@ -1,10 +1,9 @@
 {smcl}
-{* *! version 1.0 Matthew White 21mar2014}{...}
+{* *! version 1.0 Matthew Bombyk 21apr2016}{...}
 {title:Title}
 
 {phang}
-{cmd:split_pii} {hline 2} Program to automate sampling for data entry auditing.
-*syntax varlist , id(string) newid1(name) newid2(name) newname(string) [replace  dir(string)]
+{cmd:split_pii} {hline 2} Stata module to simplify dataset de-identification.
 
 {marker syntax}{...}
 {title:Syntax}
